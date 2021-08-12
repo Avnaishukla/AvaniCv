@@ -48,8 +48,6 @@ hr {
     padding-top:100px;
 }
 
-.middle-container{
-}
 
 .bottom-container {
     margin: 70px auto 0 auto;
@@ -63,6 +61,13 @@ hr {
     bottom: 300px;
 }
 
+.top-cloud {
+    position: absolute;
+    right: 500px;
+    top: 50px;
+    
+}
+
 a{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
@@ -73,12 +78,7 @@ a{
 a:hover{
     color:#EAF6F6;
 }
-.top-cloud {
-    position: absolute;
-    right: 500px;
-    top: 50px;
-    
-}
+
 
 .skill-row {
     width: 50%;
@@ -111,9 +111,9 @@ a:hover{
 
 
 .intro{
-    width: 30%;
-    margin: auto;
-    font-weight: bold;
+     width: 30%;
+     margin: auto;
+     font-weight: bold;   
     
 }
 
@@ -154,4 +154,80 @@ a:hover{
     color: #EAF6F6;
     font-size:0.75rem;
     padding: 20px 0px;
+}
+
+
+@media(max-width: 900px){
+    .mountain-img{
+        width:70%;
+        height:auto;
+    }
+
+    .name{
+        font-size: 40px;
+        line-height:3px;
+    }
+
+    .top-cloud{
+        position: absolute;
+        right: 60%;
+        width: 20%;
+        height: auto;
+        
+    }
+
+    .bottom-cloud{
+        position: absolute;
+        left: 75%;
+        width: 21%;
+        height: auto;
+        bottom: 30%;
+    }
+
+    .profile-img{
+        width: 30%;
+    }
+
+    .intro{
+        font-size: 20px;
+        width: 90%;
+        margin: auto;}
+
+    .code-img{
+        width: 75%;
+        float: none;
+        padding-left: 39px;
+    }    
+
+    .coding{
+        font-size: 1.7rem;
+        text-align: center;
+        padding-left:3%;
+    }    
+
+    .coding-description{
+        text-align: center;
+        margin-left:21px
+    }
+
+    .cooking-img{
+        width: 75%;
+        float: none;
+        margin-left: 38px;
+    } 
+
+    .cooking{
+        font-size: 1.7rem;
+        text-align: center;
+        padding-left:3%;
+    }
+
+    .cooking-description{
+        text-align: center;
+        margin-left:21px;
+    }
+
+
+
+    
 }
