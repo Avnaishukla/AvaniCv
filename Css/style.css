@@ -157,7 +157,7 @@ a:hover{
 }
 
 
-@media(max-width: 900px){
+@media(max-width: 1440px){
     .mountain-img{
         width:70%;
         height:auto;
@@ -196,7 +196,7 @@ a:hover{
     .code-img{
         width: 75%;
         float: none;
-        padding-left: 39px;
+        padding-left: 68px;
     }    
 
     .coding{
